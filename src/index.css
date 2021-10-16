@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: cursive;
+}
+
+.left{
+  left: 0%;
+}
+.right{
+  left:50%;
+}
+.right::after{
+  left:-15px;
+}
