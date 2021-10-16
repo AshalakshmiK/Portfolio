@@ -7,7 +7,7 @@ const Header = ({refs}) => {
   const goToViolation=(ref)=>{
     window.scrollTo({ behavior: "smooth", top: ref.current.offsetTop - 70 });
   };
-  console.log(refs);
+  
     return <MainDiv>
       <UList>
         <List><div onClick={()=>goToViolation(refs.IntroRef)}>Home</div></List>
